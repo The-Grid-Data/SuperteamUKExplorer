@@ -32,13 +32,13 @@ const claimProfileButton = (
 
 const cloneRepoButton = (
   <Link
-    href="https://github.com/The-Grid-Data/Explorer"
+    href="https://x.com/SuperteamUK"
     target="_blank"
     rel="noopener noreferrer"
   >
     <Button className="w-full md:w-fit" variant="outline">
       <SiGithub className="mr-2" size={18} />
-      Clone project
+      Check out SuperteamUK
     </Button>
   </Link>
 );
@@ -49,9 +49,9 @@ export const Header = () => {
       <div className="w-full items-center justify-start">
         <Link href="/" className="flex items-center">
           <Image
-            alt="The grid logo"
-            src="/thegrid-logo.svg"
-            width={160}
+            alt="SuperteamUK logo"
+            src="/SuperteamUK.png"
+            width={200}
             height={1200}
           />
         </Link>
